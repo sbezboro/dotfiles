@@ -4,9 +4,6 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 
 export PATH=$PATH:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin
 
-export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.4
-export M2=$M2_HOME/bin
-
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -89,7 +86,4 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # MacPorts Installer addition on 2013-11-11_at_14:27:55: adding an appropriate PATH variable for use with MacPorts.
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
 
